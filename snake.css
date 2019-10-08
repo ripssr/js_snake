@@ -1,0 +1,33 @@
+/* Map */
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: url(snake.jpg) no-repeat;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+}
+
+canvas {
+  margin-top: 100px;
+  background: white;
+}
+
+#restart {
+  display: block;
+  font-size: 2em;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  color: lavender;
+  cursor: pointer;
+  background: rgba(164, 164, 164, .88);
+}
+#restart:hover {
+  background: rgba(128, 128, 128, .88);
+}
+
+#restart.off {
+  display: none;
+}
